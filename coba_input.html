@@ -1,11 +1,96 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Tipe Input </title>
+        <link rel="icon" type="img/png" href="gambar/icon.png" sizes="16x16">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <h3> Uji Coba 1 </h3>
+        <label for="username"> type "text" : </label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="pwd"> type "password" : </label><br>
+        <input type="password" id="pwd" name="pwd"><br>
+        <hr>
+        <h3> Uji Coba 2 </h3>
+        <input type="radio" id="html" value="HTML" name="if"> <label for="html">HTML</label><br>
+        <input type="radio" id="css" value="CSS" name="if"> <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" value="JavaScript" name="if"> <label for="javascript">JavaScript</label>
+        <p>
+            Kesimpulan: Jika menggunakan atribut name dengan nilai yang sama, maka setiap pilihan hanya akan dapat dipilih salah satu
+        </p>
+
+        <hr>
+        <h3> Uji Coba 3 </h3>
+        <input type="checkbox" id="id1" value="Bike" name="if">
+        <label for="id1"> I Have A Bike </label><br>
+        <input type="checkbox" id="id2" value="Car" name="if">
+        <label for="id2"> I Have A Car </label><br>
+        <input type="checkbox" id="id3" value="Boat" name="if">
+        <label for="id3"> I Have A Boat </label><br>
+        <p>
+            Kesimpulan: 
+        </p>
+
+        <hr>
+        <h3> Uji Coba 4 </h3>
+        <label for="favcolor"> Pilih Warna dengan type="color": </label>
+        <input type="color" id="favcolor" name="favcolor">
+
+        <label for="b"> Pilih tanggal dengan type="date": </label>
+        <input type="date" id="b" name="tanggal">
+
+        <input type="button" onclick="alert('Virus Terdeteksi!')" value="Click Me!"> 
+        <p> Kesimpulan: </p>
+
+        <hr>
+        <h3> Uji Coba 5 </h3>
+        <label for="birthdaytime"> input dengan type datetime-local: </label>
+        <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+
+        <label for="bdaymonth"> input dengan type month: </label>
+        <input type="month" id="bdaymonth" name="bdaymonth">
+
+        <label for="email"> Enter your email: </label>
+        <input type="email" id="email" name="email">
+
+        <p> Kesimpulan: </p>
+
+        <hr>
+        <h3> Uji Coba 6 </h3>
+        <input type="image" src="gambar/icon.png" alt="submit" width="48" height="48"><br>
+        <label for="myfile"> Pilih File : </label>
+        <input type="file" id="myfile" name="myfile"><br>
+        <input type="hidden" id="custId" name="custId" value="3487"><br>
+        <p> Kesimpulan: </p>
+        
+        <hr>
+        <h3> Uji Coba 7</h3>
+        <label for="quantity"> Quantity (between 1 and 5): </label>
+        <input type="number" id="quantity" name="quantity" min="-50" max="10"><br>
+        <label for="vol"> Volume (between 0 and 50): </label>
+        <input type="range" id="vol" name="vol" min="-50" max="50"><br>
+        <p> Kesimpulan: Nilai minimum dari quantity akan bisa terinput hingga -50</p>
+
+        <hr>
+        <h3> Uji Coba 8 </h3>
+        <label for="homepage"> Add Your Homepage: </label>
+        <input type="url" id="homepage" name="homepage"><br>
+        <label for="gsearch"> Search Google: </label>
+        <Input type="search" id="gsearch" name="gsearch"><br>
+        <label for="ph"> Enter Your Phone Number: </label>
+        <input type="tel" id="ph" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+        <p> Kesimpulan: </p>
+
+        <hr>
+        <h3> Uji Coba 9 </h3>
+        <label for="appt"> Select a Time: </label>
+        <input type="time"  id="appt" name="appt"><br>
+        <label for="week"> Select a Week: </label>
+        <input type="week" id="week" name="week"><br>
+        <p> Kesimpulan: </p>
+
+        <hr>
+    </body>
 </html>
